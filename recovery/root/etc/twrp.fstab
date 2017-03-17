@@ -1,0 +1,39 @@
+# mount point       fstype    device                                                 flags
+/system             ext4      /dev/block/mmcblk0p54                                  flags=display="System";backup=1;
+/system_image       emmc      /dev/block/mmcblk0p54                                  flags=display="System Image";backup=1;flashimg=1;
+/vendor             ext4      /dev/block/mmcblk0p51                                  flags=display="Vendor";backup=1;
+/vendor_image       emmc      /dev/block/mmcblk0p51                                  flags=display="Vendor image";backup=1;flashimg=1;
+/product            ext4      /dev/block/mmcblk0p52                                  flags=display="Product";backup=1;
+/product_image      emmc      /dev/block/mmcblk0p52                                  flags=display="Product image";backup=1;flashimg=1;
+/version            ext4      /dev/block/mmcblk0p50                                  flags=display="Version";
+/version_image      emmc      /dev/block/mmcblk0p50                                  flags=display="Version Image";backup=1;flashimg=1;
+/odm                ext4      /dev/block/mmcblk0p46                                  flags=display="Odm";backup=1;
+/odm_image          emmc      /dev/block/mmcblk0p46                                  flags=display="Odm Image";backup=1;flashimg=1
+/cache              ext4      /dev/block/mmcblk0p45                                  flags=display="Cache";
+/data               ext4      /dev/block/mmcblk0p59                                  flags=display="Data";
+/aboot              emmc      /dev/block/mmcblk0p19                                  flags=display="Aboot";backup=1;
+/erecovery_kernel   emmc      /dev/block/mmcblk0p38      							 flags=display="eRecovery Kernel";backup=1;
+/erecovery_ramdisk  emmc      /dev/block/mmcblk0p39								     flags=display="eRecovery Ramdisk";backup=1;
+/erecovery_vendor   emmc      /dev/block/mmcblk0p40							         flags=display="eRecovery Vendor";backup=1;
+/recovery_ramdisk   emmc      /dev/block/mmcblk0p43							         flags=display="Recovery Ramdisk";backup=1;flashimg=1;
+/recovery_vendor    emmc      /dev/block/mmcblk0p44       							 flags=display="Recovery Vendor";backup=1;
+/ramdisk            emmc      /dev/block/mmcblk0p42					                 flags=display="Boot Ramdisk";backup=1;
+/cust               ext4      /dev/block/mmcblk0p53                  			     flags=display="Cust";backup=1;
+/cust_image         emmc      /dev/block/mmcblk0p53                  				 flags=display="Cust Image";backup=1;flashimg=1;
+/misc               emmc      /dev/block/mmcblk0p31                                  flags=display="Misc";backup=1;
+/firmware           vfat      /dev/block/mmcblk0p37				                     flags=display="Firmware";backup=1;
+/log                vfat      /dev/block/mmcblk0p48                                  flags=display="Log";
+/dsp                ext4      /dev/block/mmcblk0p5                                   flags=display="Dsp";backup=1
+/efs1               emmc      /dev/block/mmcblk0p32             					 flags=display="Efs";backup=1
+/efs2               emmc      /dev/block/mmcblk0p33          						 flags=display="Efs2";backup=1;subpartitionof=/efs1
+/frp                emmc      /dev/block/mmcblk0p7                   			     flags=display="Frp";
+/kernel             emmc      /dev/block/mmcblk0p41                                  flags=display="Kernel";backup=1
+/oeminfo            emmc      /dev/block/mmcblk0p30                                  flags=display="OemInfo";backup=1
+/persist            ext4      /dev/block/mmcblk0p47                                  flags=display="Persist";
+/rpm                emmc      /dev/block/mmcblk0p2                                   flags=display="Rpm";
+/sbl1               emmc      /dev/block/mmcblk0p1                                   flags=display="Sbl1";
+/tz                 emmc      /dev/block/mmcblk0p3                                   flags=display="Tz";backup=1
+
+
+/external_sd        vfat      /dev/block/mmcblk1p1                                   flags=display="MicroSD";storage;wipeingui;removable
+/usb-otg            auto      /dev/block/sda1                                        flags=display="USB Storage";storage;wipeingui;removable
