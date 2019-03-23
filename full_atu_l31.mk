@@ -25,6 +25,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcryptfs_hw
 
+# Keystore
+PRODUCT_PROPERTY_OVERRIDES + = \
+    ro.hardware.keystore = msm8937
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := atu_l31
 PRODUCT_NAME := full_atu_l31
