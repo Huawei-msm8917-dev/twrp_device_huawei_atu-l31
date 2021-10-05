@@ -28,12 +28,14 @@
 /efs2               emmc      /dev/block/mmcblk0p33          						 flags=display="Efs2";backup=1;subpartitionof=/efs1
 /frp                emmc      /dev/block/mmcblk0p7                   			     flags=display="Frp";
 /kernel             emmc      /dev/block/mmcblk0p41                                  flags=display="Kernel";backup=1
-/oeminfo            emmc      /dev/block/mmcblk0p30                                  flags=display="OemInfo";backup=1
 /persist            ext4      /dev/block/mmcblk0p47                                  flags=display="Persist";
 /rpm                emmc      /dev/block/mmcblk0p2                                   flags=display="Rpm";
 /sbl1               emmc      /dev/block/mmcblk0p1                                   flags=display="Sbl1";
 /tz                 emmc      /dev/block/mmcblk0p3                                   flags=display="Tz";backup=1
 
+# Protected partitions
+/oeminfo            emmc      /dev/block/mmcblk0p30                                  flags=display="OemInfo";backup=1
 
+# External storage
 /external_sd        vfat      /dev/block/mmcblk1p1                                   flags=display="MicroSD";storage;wipeingui;removable
 /usb-otg            auto      /dev/block/sda1                                        flags=display="USB Storage";storage;wipeingui;removable
