@@ -23,3 +23,6 @@ $(call inherit-product, device/huawei/msm8937/full_msm8937.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 PRODUCT_NAME := omni_msm8937
+
+# Allow missing dependenciea
+ALLOW_MISSING_DEPENDENCIES=true
