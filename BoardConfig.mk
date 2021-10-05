@@ -44,6 +44,9 @@ BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 BOARD_RAMDISK_OFFSET := 0x01000000
+
+# phony empty kernel to satisfy build system
+# include a kernel in the recovery image -- flash to recovery_ramdisk
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/dummykernel
 BOARD_CUSTOM_BOOTIMG_MK := device/huawei/msm8937/custombootimg.mk
 
