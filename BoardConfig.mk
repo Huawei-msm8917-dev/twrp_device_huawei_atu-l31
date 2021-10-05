@@ -79,6 +79,10 @@ RECOVERY_SDCARD_ON_DATA := true
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TW_USE_TOOLBOX := true
 
+# Debug-tools
+TARGET_USES_LOGD := true
+TWRP_INCLUDE_LOGCAT := true
+
 # Disable Mouse Cursor
 TW_INPUT_BLACKLIST := "hbtp_vm"
 
