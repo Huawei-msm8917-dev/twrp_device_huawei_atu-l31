@@ -17,12 +17,12 @@
 # Specify phone tech before including full_phone
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
-$(call inherit-product, device/huawei/msm8937/full_msm8937.mk)
+$(call inherit-product, device/huawei/atu_l31/full_atu_l31.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
-PRODUCT_NAME := omni_msm8937
+PRODUCT_NAME := omni_atu_l31
 
 # Allow missing dependenciea
 ALLOW_MISSING_DEPENDENCIES=true

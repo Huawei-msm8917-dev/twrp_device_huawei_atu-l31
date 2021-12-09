@@ -26,8 +26,8 @@ PRODUCT_PACKAGES += \
     libcryptfs_hw
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := msm8937
-PRODUCT_NAME := full_msm8937
+PRODUCT_DEVICE := atu_l31
+PRODUCT_NAME := full_atu_l31
 PRODUCT_BRAND := Huawei
 PRODUCT_MODEL := Y6 Prime 2018
 PRODUCT_MANUFACTURER := Huawei

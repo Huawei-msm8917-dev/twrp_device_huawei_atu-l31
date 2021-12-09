@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/huawei/msm8937
+LOCAL_PATH := device/huawei/atu_l31
 
 # Architecture
 TARGET_ARCH := arm64
@@ -48,7 +48,7 @@ BOARD_RAMDISK_OFFSET := 0x01000000
 # phony empty kernel to satisfy build system
 # include a kernel in the recovery image -- flash to recovery_ramdisk
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/dummykernel
-BOARD_CUSTOM_BOOTIMG_MK := device/huawei/msm8937/custombootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK := device/huawei/atu_l31/custombootimg.mk
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864

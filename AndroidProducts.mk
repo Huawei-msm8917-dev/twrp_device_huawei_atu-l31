@@ -15,5 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/omni_msm8937.mk \
-	$(LOCAL_DIR)/full_msm8937.mk
+	$(LOCAL_DIR)/omni_atu_l31.mk \
+	$(LOCAL_DIR)/full_atu_l31.mk

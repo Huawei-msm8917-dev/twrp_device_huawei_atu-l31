@@ -14,5 +14,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_msm8937-userdebug
-add_lunch_combo omni_msm8937-eng
+add_lunch_combo omni_atu_l31-userdebug
+add_lunch_combo omni_atu_l31-eng
