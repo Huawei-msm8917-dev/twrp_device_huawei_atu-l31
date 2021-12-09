@@ -79,6 +79,9 @@ RECOVERY_SDCARD_ON_DATA := true
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TW_USE_TOOLBOX := true
 
+# For Version TWRP
+TW_DEVICE_VERSION := 1 by hadenix
+
 # Debug-tools
 TARGET_USES_LOGD := true
 TWRP_INCLUDE_LOGCAT := true
